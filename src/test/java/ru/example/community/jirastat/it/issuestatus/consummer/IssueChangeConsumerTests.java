@@ -19,6 +19,9 @@ import ru.example.community.jirastat.sprintchange.dao.entity.IssueSpringAssignme
 
 import javax.inject.Inject;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @QuarkusTest
